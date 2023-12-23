@@ -12,34 +12,35 @@ function Hero() {
             variant="h1"
             color="blue-gray"
             className="mb-4 lg:text-5xl !leading-tight text-3xl"
+            placeholder="abc"
           >
-            Welcome to my Web <br /> Development Portofolio!
+            👋 Твоя Кар&apos;єрна Консультанка! <br />
           </Typography>
           <Typography
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
+            placeholder="abc"
           >
-            I&apos;m Lily Smith, a passionate web developer based in USA. Here,
-            you&apos;ll get a glimpse of my journey in the world of web
-            development, where creativity meets functionality.
+            Привіт я Марина і я допомоагаю людям знаходити кращу роботу, та власну кар'єру.
           </Typography>
           <div className="grid">
             <Typography
               variant="small"
               className="mb-2 text-gray-900 font-medium"
+              placeholder="abc"
             >
-              Your email
+              Твій імейл
             </Typography>
             <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
               {/* @ts-ignore */}
-              <Input color="gray" label="Enter your email" size="lg" />
-              <Button color="gray" className="w-full px-4 md:w-[12rem]">
-                require offer
+              <Input color="gray" label="Введи свій імейл" size="lg" />
+              <Button color="gray" className="w-full px-4 md:w-[12rem]" placeholder="abc">
+                записатися на звінок
               </Button>
             </div>
           </div>
-          <Typography variant="small" className="font-normal !text-gray-500">
-            Read my{" "}
+          <Typography variant="small" className="font-normal !text-gray-500" placeholder="abc">
+            Прочитай мої{" "}
             <a href="#" className="font-medium underline transition-colors">
               Terms and Conditions
             </a>
