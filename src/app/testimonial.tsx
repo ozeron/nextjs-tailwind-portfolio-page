@@ -12,17 +12,16 @@ export function Testimonial() {
       <div className="container max-w-screen-lg mx-auto">
         <div className="container mx-auto mb-20 text-center">
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            What Clients Say
+            Рекомендації
           </Typography>
           <Typography
             variant="lead"
             className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12"
           >
-            Discover what clients have to say about their experiences working
-            with me. My client&apos;s satisfaction is my greatest achievement!
+            Далі буде. Тут вставимо багато фото від клієнтів.
           </Typography>
         </div>
-        <Card color="transparent" shadow={false} className="py-8 lg:flex-row">
+        {/* <Card color="transparent" shadow={false} className="py-8 lg:flex-row">
           <CardBody className="w-full lg:gap-10 h-full lg:!flex justify-between ">
             <div className="w-full mb-10 lg:mb-0">
               <Typography
@@ -91,7 +90,7 @@ export function Testimonial() {
               />
             </div>
           </CardBody>
-        </Card>
+        </Card> */}
       </div>
     </section>
   );
