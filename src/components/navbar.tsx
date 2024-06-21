@@ -16,19 +16,19 @@ import {
 } from "@heroicons/react/24/solid";
 
 const NAV_MENU = [
-  {
-    name: "Page",
-    icon: RectangleStackIcon,
-  },
-  {
-    name: "Account",
-    icon: UserCircleIcon,
-  },
-  {
-    name: "Docs",
-    icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
-  },
+  // {
+  //   name: "Page",
+  //   icon: RectangleStackIcon,
+  // },
+  // {
+  //   name: "Account",
+  //   icon: UserCircleIcon,
+  // },
+  // {
+  //   name: "Docs",
+  //   icon: CommandLineIcon,
+  //   href: "https://www.material-tailwind.com/docs/react/installation",
+  // },
 ];
 
 interface NavItemProps {
