@@ -153,7 +153,7 @@ export function Services() {
             5 х <ClockIcon className="inline-block mr-1 h-5 w-5 text-yellow-700" /> 90 хв
           </Typography>
           <Typography variant="lead" className="pb-5">
-            <BanknotesIcon className="inline-block mr-1 h-5 w-5 text-yellow-700" /> 20000 грн
+            <BanknotesIcon className="inline-block mr-1 h-5 w-5 text-yellow-700" /> 20 000 грн
           </Typography>
           <a href={SIGNUP_URL} target="_blank" rel="noopener noreferrer">
             <Button className="w-full md:w-32 bg-yellow-700" color="gray" size="sm">
