@@ -92,3 +92,9 @@ Dribbble: <https://dribbble.com/creativetim>
 Google+: <https://plus.google.com/+CreativetimPage>
 
 Instagram: <https://instagram.com/creativetimofficial>
+
+
+# Todo:
+- [ ] Try to build testimnonials with react masonry
+- [ ] Put a better image in header section
+- [ ] Try to move coloring to a theme
