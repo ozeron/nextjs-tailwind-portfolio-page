@@ -59,7 +59,7 @@ export function Services() {
     <>
     <section className="px-8">
       <div className="container mx-auto mb-20 mt-20 text-cente flex flex-start ">
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        <Typography variant="h1" color="blue-gray" className="mb-4 text-yellow-700">
           Кар'єрні консультації
         </Typography>
       </div>
@@ -69,13 +69,13 @@ export function Services() {
             Разова консультація
           </Typography>
           <Typography variant="lead">
-            <ClockIcon className="inline-block mr-1 h-5 w-5" /> 90 хв
+            <ClockIcon className="inline-block mr-1 h-5 w-5 text-yellow-700" /> 90 хв
           </Typography>
           <Typography variant="lead" className="pb-5">
-            <BanknotesIcon className="inline-block mr-1 h-5 w-5" /> 4000 грн
+            <BanknotesIcon className="inline-block mr-1 h-5 w-5 text-yellow-700" /> 4000 грн
           </Typography>
           <a href={SIGNUP_URL} target="_blank" rel="noopener noreferrer">
-            <Button className="w-full md:w-32" color="gray" size="sm">
+            <Button className="w-full md:w-32 bg-yellow-700" color="gray" size="sm">
               Записатися
             </Button>
           </a>
@@ -83,7 +83,7 @@ export function Services() {
 
         <div className="col-span-7 mx-auto mb-20 text-left">
           <Typography variant="paragraph" className="mb-5">
-            За одну консультацію ми можемо з вами пропрацювати якісно один кар'єрний запит. Спочатку ми проведемо короткий discovery-call, де обговоримо очікування та потреби. Я дам вам домашнє завдання(pre-work), яке потрібно зробити перед консультацією.
+            За одну консультацію ми можемо з вами пропрацювати якісно <strong className="text-yellow-700">один кар'єрний запит</strong>. Спочатку ми проведемо короткий discovery-call, де обговоримо очікування та потреби. Я дам вам домашнє завдання (pre-work), яке потрібно зробити перед консультацією.
           </Typography>
           <Typography variant="paragraph" className="mb-5">
             Приклади точкових кар'єрних запитів:
@@ -120,7 +120,7 @@ export function Services() {
               Розбір ваших кейсів
             </li> */}
           </ul>
-          <Typography variant="lead" className="mb-5">
+          <Typography variant="lead" className="mb-5 ">
             Що включено:
           </Typography>
           <ul className="list-disc list-inside">
@@ -137,7 +137,7 @@ export function Services() {
                 Гайд по тому, як пройти інтерв'ю
               </li>
               <li className="mb-2 antialiased font-sans text-base font-light leading-relaxed text-inherit">
-                  <strong>Важливо:</strong> зробити pre-work перед консультацією, щоб заняття було ефективне.
+                  <strong className="text-yellow-700">Важливо:</strong> зробити pre-work перед консультацією, щоб заняття було ефективне.
               </li>
             </ul>
 
@@ -150,13 +150,13 @@ export function Services() {
             Пакет консультації
           </Typography>
           <Typography variant="lead">
-            5 х <ClockIcon className="inline-block mr-1 h-5 w-5" /> 90 хв
+            5 х <ClockIcon className="inline-block mr-1 h-5 w-5 text-yellow-700" /> 90 хв
           </Typography>
           <Typography variant="lead" className="pb-5">
-            <BanknotesIcon className="inline-block mr-1 h-5 w-5" /> 20000 грн
+            <BanknotesIcon className="inline-block mr-1 h-5 w-5 text-yellow-700" /> 20000 грн
           </Typography>
           <a href={SIGNUP_URL} target="_blank" rel="noopener noreferrer">
-            <Button className="w-full md:w-32" color="gray" size="sm">
+            <Button className="w-full md:w-32 bg-yellow-700" color="gray" size="sm">
               Записатися
             </Button>
           </a>
@@ -205,7 +205,7 @@ export function Services() {
               Реферинг по нетвокру, якщо є змога
             </li>
             <li className="mb-2 antialiased font-sans text-base font-light leading-relaxed text-inherit">
-                <strong>Важливо:</strong> робити pre-work перед консультаціями, щоб заняття були ефективні.
+                <strong className="text-yellow-700">Важливо:</strong> робити pre-work перед консультаціями, щоб заняття були ефективні.
             </li>
           </ul>
         </div>
