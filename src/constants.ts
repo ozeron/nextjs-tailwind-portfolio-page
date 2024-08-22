@@ -1,0 +1,1 @@
+export const SIGNUP_URL ='https://docs.google.com/forms/d/1qNX6rtI7gfPV6LdZFwYy8XdLP27yQfh1YvVs0dQ0xj0/viewform?fbclid=IwAR2WJXdbtIc37CHkHaTS-iCNXju3xvi2oYTVJQ3XGa1lrClX86KZsPWUw7M&edit_requested=true'

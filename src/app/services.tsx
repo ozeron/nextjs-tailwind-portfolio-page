@@ -12,8 +12,8 @@ import {
   BanknotesIcon
 } from "@heroicons/react/24/solid";
 import { SkillCard } from "@/components";
+import { SIGNUP_URL } from "@/constants";
 
-const SIGNUP_URL ='https://docs.google.com/forms/d/1qNX6rtI7gfPV6LdZFwYy8XdLP27yQfh1YvVs0dQ0xj0/viewform?fbclid=IwAR2WJXdbtIc37CHkHaTS-iCNXju3xvi2oYTVJQ3XGa1lrClX86KZsPWUw7M&edit_requested=true'
 
 const SKILLS = [
   {
@@ -58,7 +58,7 @@ export function Services() {
   return (
     <>
     <section className="px-8">
-      <div className="container mx-auto mb-20 mt-20 text-cente flex flex-start ">
+      <div className="container mx-auto mb-20 mt-20 text-center  ">
         <Typography variant="h1" color="blue-gray" className="mb-4 text-yellow-700">
           Кар'єрні консультації
         </Typography>
@@ -150,7 +150,7 @@ export function Services() {
             Пакет консультації
           </Typography>
           <Typography variant="lead">
-            5 х <ClockIcon className="inline-block mr-1 h-5 w-5 text-yellow-700" /> 90 хв
+            5 занять х <ClockIcon className="inline-block mr-1 h-5 w-5 text-yellow-700" /> 90 хв
           </Typography>
           <Typography variant="lead" className="pb-5">
             <BanknotesIcon className="inline-block mr-1 h-5 w-5 text-yellow-700" /> 20 000 грн

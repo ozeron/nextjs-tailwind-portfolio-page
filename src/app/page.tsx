@@ -27,7 +27,7 @@ export default function Portfolio() {
       {/* <Resume /> */}
       <Testimonial />
       { /* <PopularClients /> */}
-      {/* <ContactForm /> */}
+      <ContactForm />
       <Footer />
     </>
   );
