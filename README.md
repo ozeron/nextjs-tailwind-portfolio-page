@@ -98,7 +98,7 @@ Instagram: <https://instagram.com/creativetimofficial>
 - [x] Try to build testimnonials with react masonry
 - [x] not clear 5 X 90
 - [x] rework footer to include link to linkedin and instagram
-- [ ] different yellow, remove grey on top
+- [x] different yellow, remove grey on top
 - [ ] Put a better image in header section
 - [ ] Try to move coloring to a theme
 - [ ] add more buttons and CTAs

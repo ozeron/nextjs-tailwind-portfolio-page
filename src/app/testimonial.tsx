@@ -23,7 +23,7 @@ export function Testimonial() {
             <Typography
               variant="h2"
               color="blue-gray"
-              className="mb-8 text-yellow-700"
+              className="mb-8 text-yellow-800"
               placeholder="Рекомендації"
             >
               Рекомендації

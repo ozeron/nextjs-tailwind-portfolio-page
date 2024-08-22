@@ -17,7 +17,7 @@ function Hero() {
           <Typography
             variant="h1"
             color="blue-gray"
-            className="mb-4 lg:text-5xl !leading-tight text-3xl text-yellow-700"
+            className="mb-4 lg:text-5xl !leading-tight text-3xl text-yellow-800"
             placeholder="abc"
           >
             👋 Привіт, я Марина  <br />
