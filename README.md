@@ -99,7 +99,8 @@ Instagram: <https://instagram.com/creativetimofficial>
 - [x] not clear 5 X 90
 - [x] rework footer to include link to linkedin and instagram
 - [x] different yellow, remove grey on top
-- [ ] Put a better image in header section
+- [x] Put a better image in header section
+- [ ] Make image responsive
 - [ ] Try to move coloring to a theme
 - [ ] add more buttons and CTAs
 

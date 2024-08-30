@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Input, Button, Typography } from "@material-tailwind/react";
+import ProfileImage from "@/components/profile-image";
 
 function Hero() {
   return (
@@ -52,13 +53,7 @@ function Hero() {
             </a>
           </Typography> */}
         </div>
-        <Image
-          width={1024}
-          height={1024}
-          alt="team work"
-          src="/image/Square.jpg"
-          className="h-[36rem] w-full rounded-xl object-cover"
-        />
+        <ProfileImage />
       </div>
     </header>
   );
