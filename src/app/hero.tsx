@@ -13,7 +13,7 @@ function Hero() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}>
-      <div className="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
+      <div className="container mx-auto grid h-full gap-4 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
         <div className="row-start-2 lg:row-auto">
           <Typography
             variant="h1"
@@ -30,30 +30,10 @@ function Hero() {
           >
             Сертифікований бізнес тренер та кар'єрний консультант.
           </Typography>
-          <div className="grid">
-            {/* <Typography
-              variant="small"
-              className="mb-2 text-gray-900 font-medium"
-              placeholder="abc"
-            >
-              Твій імейл
-            </Typography>
-            <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
-              {/* @ts-ignore */}
-              {/* <Input color="gray" label="Введи свій імейл" size="lg" />
-              <Button color="gray" className="w-full px-4 md:w-[12rem]" placeholder="abc">
-                записатися на звінок
-              </Button>
-            </div> */}
-          </div>
-          {/* <Typography variant="small" className="font-normal !text-gray-500" placeholder="abc">
-            Прочитай мої{" "}
-            <a href="#" className="font-medium underline transition-colors">
-              Terms and Conditions
-            </a>
-          </Typography> */}
         </div>
-        <ProfileImage />
+        <div className="w-full h-full">
+          <ProfileImage />
+        </div>
       </div>
     </header>
   );
